@@ -17,10 +17,10 @@
             <a class="active-link" href="#0">главная</a>
           </li>
           <li class="menu-item">
-            <a class="text-decoration" href="#lots">посмотреть лоты</a>
+            <a class="header__link" href="#lots">посмотреть лоты</a>
           </li>
           <li class="menu-item">
-            <a class="text-decoration" href="#auction">об аукционе</a>
+            <a class="header__link" href="#auction">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -28,9 +28,9 @@
         <img src="images/logo-black.svg" alt="Логотип 'Оно тебе надо'" />
       </a>
       <address class="address justify-self-end">
-        <a class="text-decoration" href="tel:+99995555555">+9 999 555 5555</a
+        <a class="header__link" href="tel:+99995555555">+9 999 555 5555</a
         ><br />
-        <a class="text-decoration" href="mailto:info@sobaka.ge"
+        <a class="header__link" href="mailto:info@sobaka.ge"
           >info@sobaka.ge</a
         >
         <p class="no-white-space">
@@ -43,16 +43,16 @@
       <section class="cover">
         <span class="overlay"></span>
         <h1 class="cover__title">
-          <span class="line-height-115">
+          <span class="cover__title__line-height">
             <span>о</span
             ><span class="padding-right">н</span
             ><span>о</span>
           </span>
-          <span class="text-align-center line-height-100">
+          <span class="text-align-center line-height">
             <span class="padding-right">теб</span
             ><span class="padding-right">е</span>
           </span>
-          <span class="text-align-right line-height-100">
+          <span class="text-align-right line-height">
             <span class="padding-right">н</span
             ><span>а</span
             ><span>д</span
@@ -63,7 +63,7 @@
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
+          <button class="bet-button" type="button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -155,10 +155,10 @@
       </section>
     </main>
     <footer class="footer container">
-      <address class="address footer__addres-padding">
-        <a class="text-decoration" href="tel:+99995555555">+9 999 555 5555</a
+      <address class="address footer__addres">
+        <a class="header__link" href="tel:+99995555555">+9 999 555 5555</a
         ><br />
-        <a class="text-decoration" href="mailto:info@sobaka.ge"
+        <a class="header__link" href="mailto:info@sobaka.ge"
           >info@sobaka.ge</a
         >
         <p class="no-white-space">
@@ -172,17 +172,17 @@
             <a class="active-link" href="#0">главная</a>
           </li>
           <li class="menu-item">
-            <a class="text-decoration" href="#lots">посмотреть лоты</a>
+            <a class="header__link" href="#lots">посмотреть лоты</a>
           </li>
           <li class="menu-item">
-            <a class="text-decoration" href="#auction">об аукционе</a>
+            <a class="header__link" href="#auction">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <nav>
+      <div>
         <ul class="footer__social-list">
           <li>
-            <a href="#0">
+            <a href="#0" target="_blank">
               <img
                 class="footer__social-icon"
                 src="images/yt.svg"
@@ -191,7 +191,7 @@
             </a>
           </li>
           <li>
-            <a href="#0">
+            <a href="#0" target="_blank">
               <img
                 class="footer__social-icon"
                 src="images/vk.svg"
@@ -209,7 +209,7 @@
             </a>
           </li>
         </ul>
-      </nav>
+      </div>
     </footer>
   </body>
 </html>
